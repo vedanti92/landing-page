@@ -36,3 +36,11 @@
     width: 18px;
     height: 18px;
 }
+
+.mobile {
+    text-align: center;
+}
+
+.iphone {
+    height: 500px;
+}
