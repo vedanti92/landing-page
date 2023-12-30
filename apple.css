@@ -17,6 +17,8 @@
 
 .navbar-list li {
     margin: 10px 10px;
+    font-family: sans-serif;
+    font-weight: lighter;
 }
 
 .navbar-list a {
