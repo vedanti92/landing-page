@@ -4,3 +4,22 @@
     margin: 0;
     padding: 0;
 }
+
+.navbar {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-list {
+    list-style: none;
+    display: flex;
+}
+
+.navbar-list li {
+    margin: 10px 10px;
+}
+
+.navbar-list a {
+    text-decoration: none;
+    color: lightgray;
+}
