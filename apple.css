@@ -16,12 +16,23 @@
 }
 
 .navbar-list li {
-    margin: 10px 10px;
+    margin: 10px 20px;
     font-family: sans-serif;
     font-weight: lighter;
+    text-align: center;
 }
 
 .navbar-list a {
     text-decoration: none;
     color: lightgray;
+}
+
+.logo {
+    width: 18px;
+    height: 18px;
+}
+
+.search {
+    width: 18px;
+    height: 18px;
 }
