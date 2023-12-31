@@ -46,3 +46,12 @@
 .iphone {
     height: 500px;
 }
+
+.mobile h1 {
+    font-size: 50px;
+}
+
+.mobile h3 {
+    font-weight: lighter;
+    font-size: 25px;
+}
