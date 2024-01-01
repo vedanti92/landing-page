@@ -6,11 +6,19 @@
     font-family: 'Plus Jakarta Sans', sans-serif;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-.navbar {
+body {
+    padding-top: 50px;
+}
+
+nav {
     display: flex;
     justify-content: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
 }
 
 .navbar-list {
@@ -41,6 +49,7 @@
 
 .mobile {
     text-align: center;
+    margin-top: 50px;
 }
 
 .iphone {
@@ -64,42 +73,22 @@
     flex-flow: wrap;
 }
 
-.tab {
+.tab, .laptop {
     margin-top: 40px;
     text-align: center;
 }
 
-.ipad {
+.ipad, .mac {
     height: 400px;
     margin: 0;
 }
 
-.tab h2 {
+.tab h2, .laptop h2 {
     font-size: 30px;
     margin-bottom: 10px;
 }
 
-.tab h4 {
-    font-weight: lighter;
-    font-size: 20px;
-}
-
-.laptop {
-    margin-top: 40px;
-    text-align: center;
-}
-
-.mac {
-    height: 400px;
-    margin: 0;
-}
-
-.laptop h2 {
-    font-size: 30px;
-    margin-bottom: 10px;
-}
-
-.laptop h4 {
+.tab h4, .laptop h4 {
     font-weight: lighter;
     font-size: 20px;
 }
