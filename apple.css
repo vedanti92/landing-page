@@ -73,6 +73,15 @@
     margin: 0;
 }
 
+.tab h2 {
+    font-size: 30px;
+}
+
+.tab h4 {
+    font-weight: lighter;
+    font-size: 15px;
+}
+
 .laptop {
     margin-top: 40px;
     text-align: center;
@@ -81,4 +90,13 @@
 .mac {
     height: 400px;
     margin: 0;
+}
+
+.laptop h2 {
+    font-size: 30px;
+}
+
+.laptop h4 {
+    font-weight: lighter;
+    font-size: 15px;
 }
