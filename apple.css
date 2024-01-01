@@ -49,6 +49,7 @@
 
 .mobile h1 {
     font-size: 50px;
+    margin-bottom: 10px;
 }
 
 .mobile h3 {
@@ -75,11 +76,12 @@
 
 .tab h2 {
     font-size: 30px;
+    margin-bottom: 10px;
 }
 
 .tab h4 {
     font-weight: lighter;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 .laptop {
@@ -94,9 +96,10 @@
 
 .laptop h2 {
     font-size: 30px;
+    margin-bottom: 10px;
 }
 
 .laptop h4 {
     font-weight: lighter;
-    font-size: 15px;
+    font-size: 20px;
 }
