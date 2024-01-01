@@ -55,3 +55,12 @@
     font-weight: lighter;
     font-size: 25px;
 }
+
+.tab {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.ipad {
+    height: 400px;
+}
