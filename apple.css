@@ -67,29 +67,29 @@ nav {
     word-spacing: 5px;
 }
 
-.row-1 {
+.row-1, .row-2 {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     flex-flow: wrap;
 }
 
-.tab, .laptop {
+.tab, .laptop, .watch {
     margin-top: 40px;
     text-align: center;
 }
 
-.ipad, .mac {
+.ipad, .mac, .clk {
     height: 400px;
     margin: 0;
 }
 
-.tab h2, .laptop h2 {
+.tab h2, .laptop h2, .watch h2 {
     font-size: 30px;
     margin-bottom: 10px;
 }
 
-.tab h4, .laptop h4 {
+.tab h4, .laptop h4, .watch h4 {
     font-weight: lighter;
     font-size: 20px;
     word-spacing: 5px;
