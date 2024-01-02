@@ -59,6 +59,7 @@ nav {
 .mobile h1 {
     font-size: 50px;
     margin-bottom: 10px;
+    word-spacing: 5px;
 }
 
 .mobile h3 {
@@ -88,6 +89,7 @@ nav {
 .tab h2, .laptop h2, .watch h2, .earphones h2 {
     font-size: 30px;
     margin-bottom: 10px;
+    word-spacing: 5px;
 }
 
 .tab h4, .laptop h4, .watch h4, .earphones h4 {
@@ -95,10 +97,10 @@ nav {
     font-size: 20px;
     word-spacing: 5px;
     margin-bottom: 20px;
+    word-spacing: 5px;
 }
 
 .white-logo {
     width: 25px;
     height: 28px;
-    margin-right: 3px;
 }
