@@ -65,6 +65,7 @@ nav {
     font-weight: lighter;
     font-size: 25px;
     word-spacing: 5px;
+    margin-bottom: 20px;
 }
 
 .row-1, .row-2 {
@@ -93,6 +94,7 @@ nav {
     font-weight: lighter;
     font-size: 20px;
     word-spacing: 5px;
+    margin-bottom: 20px;
 }
 
 .white-logo {
