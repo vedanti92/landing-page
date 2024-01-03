@@ -53,7 +53,9 @@ nav {
 }
 
 .iphone {
-    height: 500px;
+    height: auto;
+    width: 100%;
+    max-width: 600px;
 }
 
 .mobile h1 {
@@ -79,20 +81,28 @@ nav {
 .tab, .laptop, .watch, .earphones {
     margin-top: 40px;
     text-align: center;
+    max-width: 600px;
+    width: 100%;
 }
 
 .ipad, .mac, .clk, .pods {
-    height: 400px;
-    margin: 0;
+    height: auto;
+    width: 100%;
 }
 
-.tab h2, .laptop h2, .watch h2, .earphones h2 {
+.tab h2,
+.laptop h2,
+.watch h2,
+.earphones h2 {
     font-size: 30px;
     margin-bottom: 10px;
     word-spacing: 5px;
 }
 
-.tab h4, .laptop h4, .watch h4, .earphones h4 {
+.tab h4,
+.laptop h4,
+.watch h4,
+.earphones h4 {
     font-weight: lighter;
     font-size: 20px;
     word-spacing: 5px;
@@ -111,7 +121,10 @@ h6 {
     word-spacing: 5px;
 }
 
-.tab h6, .laptop h6, .watch h6, .earphones h6 {
+.tab h6,
+.laptop h6,
+.watch h6,
+.earphones h6 {
     font-weight: lighter;
     font-size: 15px;
     word-spacing: 5px;
@@ -122,7 +135,11 @@ h6 {
     color: rgb(66, 176, 255);
 }
 
-.mobile a:hover, .tab a:hover, .laptop a:hover, .watch a:hover, .earphones a:hover {
+.mobile a:hover,
+.tab a:hover,
+.laptop a:hover,
+.watch a:hover,
+.earphones a:hover {
     text-decoration: underline;
 }
 
@@ -140,3 +157,43 @@ h6 {
       transform: translateY(0);
     }
   }
+
+  @media only screen and (max-width: 768px) {
+    body {
+        padding-top: 20px;
+    }
+
+    .navbar-list li {
+        margin: 10px 5px;
+    }
+
+    .mobile h1 {
+        font-size: 7px;
+    }
+
+    .mobile h3 {
+        font-size: 4px;
+    }
+
+    .tab h2,
+    .laptop h2,
+    .watch h2,
+    .earphones h2 {
+        font-size: 5px;
+    }
+
+    .tab h4,
+    .laptop h4,
+    .watch h4,
+    .earphones h4 {
+        font-size: 3px;
+    }
+
+    h6,
+    .tab h6,
+    .laptop h6,
+    .watch h6,
+    .earphones h6 {
+        font-size: 3px;
+    }
+}
