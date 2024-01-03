@@ -104,3 +104,13 @@ nav {
     width: 25px;
     height: 28px;
 }
+
+.info {
+    font-weight: lighter;
+    font-size: 20px;
+    word-spacing: 5px;
+}
+
+span {
+    gap: 30px;
+}
