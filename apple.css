@@ -121,3 +121,7 @@ h6 {
     text-decoration: none;
     color: rgb(66, 176, 255);
 }
+
+.mobile a:hover, .tab a:hover, .laptop a:hover, .watch a:hover, .earphones a:hover {
+    text-decoration: underline;
+}
