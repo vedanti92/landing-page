@@ -111,6 +111,12 @@ h6 {
     word-spacing: 5px;
 }
 
+.tab h6, .laptop h6, .watch h6, .earphones h6 {
+    font-weight: lighter;
+    font-size: 15px;
+    word-spacing: 5px;
+}
+
 .info {
     text-decoration: none;
     color: rgb(66, 176, 255);
