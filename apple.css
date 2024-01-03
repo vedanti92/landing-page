@@ -37,12 +37,7 @@ nav {
     color: lightgray;
 }
 
-.logo {
-    width: 18px;
-    height: 18px;
-}
-
-.search {
+.logo, .search {
     width: 18px;
     height: 18px;
 }
@@ -115,7 +110,7 @@ nav {
     height: 28px;
 }
 
-h6 {
+.mobile h6 {
     font-weight: lighter;
     font-size: 20px;
     word-spacing: 5px;
@@ -164,36 +159,48 @@ h6 {
     }
 
     .navbar-list li {
-        margin: 10px 5px;
+        margin: 10px 8px;
     }
 
     .mobile h1 {
-        font-size: 7px;
+        font-size: 30px;
     }
 
     .mobile h3 {
-        font-size: 4px;
+        font-size: 15px;
     }
 
     .tab h2,
     .laptop h2,
     .watch h2,
     .earphones h2 {
-        font-size: 5px;
+        font-size: 15px;
     }
 
     .tab h4,
     .laptop h4,
     .watch h4,
     .earphones h4 {
-        font-size: 3px;
+        font-size: 15px;
     }
 
-    h6,
+    .mobile h6,
     .tab h6,
     .laptop h6,
     .watch h6,
     .earphones h6 {
-        font-size: 3px;
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .logo, .search {
+        width: 12px;
+        height: 12px;
+    }
+
+    .navbar-list li {
+        margin: 8px 10px;
+        font-size: 60%;
     }
 }
