@@ -105,12 +105,13 @@ nav {
     height: 28px;
 }
 
-.info {
+h6 {
     font-weight: lighter;
     font-size: 20px;
     word-spacing: 5px;
 }
 
-span {
+.info {
+    text-decoration: none;
     color: rgb(66, 176, 255);
 }
