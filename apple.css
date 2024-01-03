@@ -125,3 +125,18 @@ h6 {
 .mobile a:hover, .tab a:hover, .laptop a:hover, .watch a:hover, .earphones a:hover {
     text-decoration: underline;
 }
+
+.animated-content {
+    animation: fadeIn 1s ease-out;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
